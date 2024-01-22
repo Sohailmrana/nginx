@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+        
+    }
+    stages {
+        stage('copy the code') {
+            }  
+            steps {
+                sh """
+                echo 'This is sample web '
+                cp -R/home/sohail/rana/nginx/* /var/www/html
+                ls -l 
+                pwd 
+                """
+            }
+        }
+    }
+    
+}
