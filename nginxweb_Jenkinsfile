@@ -4,7 +4,7 @@ pipeline {
     }
     stages {
         stage('copy the code') {  
-            steps i{
+            steps {
                 sh """
                 echo 'This is sample web '
                 cp -R /home/sohail/rana/nginx/* /var/www/html
