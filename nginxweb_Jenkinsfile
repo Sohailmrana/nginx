@@ -3,8 +3,7 @@ pipeline {
         
     }
     stages {
-        stage('copy the code') {
-            }  
+        stage('copy the code') {  
             steps {
                 sh """
                 echo 'This is sample web '
